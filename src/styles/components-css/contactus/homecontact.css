@@ -1,0 +1,136 @@
+.home-contact{
+    text-align: center;
+    padding: 60px 50px 30px 50px;
+    /* background-color: rgb(138, 51, 51); */
+}
+
+.home-contact-container{
+    display: flex;              /* "Our-Team" and "Contact-US" containers are aline to same Row */
+    max-width: 1100px;          /* Contact-container maximum width is 1200px */
+    margin: auto;
+    /* background-color: rgb(81, 165, 190); */
+}
+
+.home-contact-title{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.our-team-container{
+    width: 50%;             /* "Our-Team" and "Contact-US" containers are aline to half-half width */
+    max-width: 100%;
+    /* margin: 10px; */
+    /* background-color: #fff; */
+}
+
+.our-team-title{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.our-team-row{
+    display: flex;          /* Cuple of members are aline to same Row */ 
+    padding: 0px 30px;
+    /* background-color: rgb(214, 68, 158); */
+}
+
+.our-team-col{
+    width: 50%;             /* Cuple of members are aline to half-half width */
+    margin: 0px 20px 30px 5px;
+    /* background-color: rgb(219, 208, 52); */
+}
+
+.team-img{
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.our-team-info{
+
+}
+.our-team-info h6{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.our-team-info span{
+    font-size: 15px;
+}
+
+.contactus-container{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* background: rgb(170, 165, 165); */
+}
+
+.contactus-title{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.input-area{
+    margin: auto;
+    padding: 0 20px;
+}
+
+.input-body {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    /* margin-right: 10px; */
+    outline: none;
+    border: none;
+    background-color: rgb(216, 215, 215);
+}
+
+.footer-input::placeholder {
+    color: #838383;
+}
+
+.submit_btn{
+    padding-left: 250px;  
+}
+
+@media screen and (max-width: 960px) {
+    .home-contact-container{
+        display: block;     /* "Our-Team" and "Contact-US" containers are aline to different Row */
+        margin: 0px 50px;
+    }
+
+    .our-team-container{
+        width: 100%;        /* "Our-Team" and "Contact-US" containers are aline to full width */
+    }
+
+    .contactus-container{
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .our-team-row{
+        display: block;     /* Cuple of members are aline to different Row */ 
+    }
+    .our-team-col{
+        width: 100%;
+    }
+    .input-area{
+        padding: 0 !important;
+    }
+    .submit_btn{
+        padding-left: 0px !important;  
+    }
+}

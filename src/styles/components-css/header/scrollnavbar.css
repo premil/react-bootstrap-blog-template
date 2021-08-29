@@ -1,0 +1,23 @@
+.scroll-navbar{
+    background: linear-gradient(90deg, rgb(80, 10, 10) 0%, rgb(117, 41, 41) 100%);
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0px 20px !important;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    /* transition: top 0.5s; */
+    z-index: 999;           /* ???? */
+}
+
+
+/* .scroll-navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+} */

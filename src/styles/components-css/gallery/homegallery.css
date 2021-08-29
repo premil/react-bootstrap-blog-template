@@ -1,0 +1,39 @@
+
+.homegallery{
+    margin: auto;
+}
+
+.hgallery-row{
+    display: flex;
+    margin: 8px 16px;
+}
+
+
+.hgallery-column{
+    width: 25%;
+    padding: 10px;
+}
+
+.hgallery-content{
+ /* max-height: 200px; */
+}
+
+.hgallery-img{
+ /* height: 100%;
+ width: 100%; */
+}
+
+@media screen and (max-width: 900px) {
+    .hgallery-row{
+        /* display: flex; */
+    }
+    .hgallery-column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .hgallery-column {
+      width:100%;
+    }
+  }

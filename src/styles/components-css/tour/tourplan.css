@@ -1,0 +1,104 @@
+.tour-plan{
+    background-color: rgb(29, 27, 27);
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.tourplan-container{
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: rgb(99, 45, 45); */
+}
+
+.tourplan-title-container{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 60px;
+    /* background-color: rgb(150, 199, 240); */
+}
+
+.tourplan-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.tourplan-subtitle{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(216, 212, 212);
+}
+
+.info-container-row{
+    display: flex;
+    padding: 10px 5px;
+    
+}
+
+.info-container-row2{
+    display: flex;
+    /* padding-right: 20px; */
+}
+
+.info-container-col{
+    width: 50%;
+    margin: 10px 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+.tourplan-img{
+
+}
+
+.tour-img{
+    width: 100%;
+    height: 100%;
+}
+
+.tourplan-info{
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .info-container-row{
+        display: block;
+        padding: 0PX 80PX;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .info-container-row{
+        display: block;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info-container-row{
+        display: block;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .tour-plan{
+        padding: 50px 70px 60px 70px;
+    }
+
+    .tourplan-title-container{
+        padding-bottom: 40px;
+    }
+    .info-container-row{
+        padding: 0;
+    }
+    .info-container-row2{
+        display: block;
+    }
+
+    .info-container-col{
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}

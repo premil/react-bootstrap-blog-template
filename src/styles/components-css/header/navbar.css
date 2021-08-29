@@ -1,0 +1,141 @@
+.navbar{
+    background: linear-gradient(90deg, rgb(80, 10, 10) 0%, rgb(117, 41, 41) 100%) !important;
+    color: #fff;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0px 20px !important;
+    top: 0;
+    z-index: 999;           /* ???? */
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+}
+
+
+/* ========== Logo Style ========== */
+/* ================================ */
+.nav-logo{
+    margin-left: 30px;
+    align-items: center;
+}
+
+.logo-name{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* ========== Menu Style ========== */
+/* ================================ */
+.menu-icon {
+    display: none;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 0px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.nav-link{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+.nav-link:hover {
+    color: rgb(47, 125, 189);
+}
+
+/* ========== Sign in Style ========== */
+/* =================================== */
+.log-in{
+    margin-right: 30px;
+    display: flex;
+}
+
+.sign-in {
+    margin-right: 5px;
+}
+
+
+/* ========== Mobile-Responce Style ========== */
+/* =========================================== */
+@media screen and (max-width: 960px){
+    .navbar{
+        position: relative;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 50%);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        position:absolute;
+        top: 50px;
+        left: -100%;
+        opacity: 1;
+        transition: all 2s ease;
+    }
+
+    .nav-menu.active {
+        background: #242222;
+        padding: 0;
+        left: 0;
+        opacity: 1;
+        transition: all 1s ease;
+        z-index: 1;
+    }
+
+    .nav-item{
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+        text-align: center !important;
+    }
+
+    .nav-link {
+        display:table;
+        text-align: center;
+        padding: 10px 0px;
+        
+    }
+    .nav-link:hover {
+        background-color: #fff ;
+        color: #242424;
+        width: 100%; 
+        max-width: 100%; 
+        height: 40px;   
+    }
+
+    .fa-times {           /* Menu icon "Close" */
+        font-size: 22px;
+        margin-right: 2px;
+    }
+}
