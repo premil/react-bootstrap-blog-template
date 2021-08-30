@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Semantic description of image](/image/img1.jpg)*My caption*
+
 ## Available Scripts
 
 In the project directory, you can run:
